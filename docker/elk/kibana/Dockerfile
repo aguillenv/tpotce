@@ -22,6 +22,8 @@ RUN apk -U upgrade && \
 
 # Add and move files
     cd /root/dist/ && \
+    cp ui_app.jade /usr/share/kibana/src/ui/views/ui_app.jade && \
+    cp akka_custom.style.css /usr/share/kibana/optimize/bundles/akka_custom.style.css && \
     cp kibana.svg /usr/share/kibana/src/ui/public/images/kibana.svg && \
     cp kibana.svg /usr/share/kibana/src/ui/public/icons/kibana.svg && \
     cp elk.ico /usr/share/kibana/src/ui/public/assets/favicons/favicon.ico && \
