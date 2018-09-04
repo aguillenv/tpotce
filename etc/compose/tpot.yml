@@ -116,7 +116,7 @@ services:
         condition: service_healthy
     ports:
      - "127.0.0.1:64296:5601"
-    image: "dtagdevsec/kibana:1710"
+    image: "aguillenv93/kibana:1710"
 
 ## Logstash service
   logstash:
