@@ -1,3 +1,23 @@
+.btn
+{
+  background: none;
+  border-radius: 20px;
+}
+
+.btn:hover
+{
+  background: rgb(230,51,18);
+}
+
+.global-nav
+{
+  background-color: rgb(40,68,86);
+}
+
+.global-nav-link.active, .global-nav-link:hover {
+  background-color: rgb(230,51,18);
+}
+
 .global-nav .logo-small.kibana,.global-nav .logo.kibana
 {
   background-color: rgb(210,204,189);
