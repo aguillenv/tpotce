@@ -25,8 +25,9 @@ RUN apk -U upgrade && \
     cp kibana.svg /usr/share/kibana/src/ui/public/images/kibana.svg && \
     cp kibana.svg /usr/share/kibana/src/ui/public/icons/kibana.svg && \
     cp elk.ico /usr/share/kibana/src/ui/public/assets/favicons/favicon.ico && \
-    cp elk.ico /usr/share/kibana/src/ui/public/assets/favicons/favicon-16x16.png && \
-    cp elk.ico /usr/share/kibana/src/ui/public/assets/favicons/favicon-32x32.png && \
+    cp elk.png /usr/share/kibana/src/ui/public/assets/favicons/favicon.png && \
+    cp elk-16x16.png /usr/share/kibana/src/ui/public/assets/favicons/favicon-16x16.png && \
+    cp elk-32x32.png /usr/share/kibana/src/ui/public/assets/favicons/favicon-32x32.png && \
     cp create_kibana_index.js /usr/share/kibana/src/core_plugins/elasticsearch/lib/ && \
     cd / && \
 
