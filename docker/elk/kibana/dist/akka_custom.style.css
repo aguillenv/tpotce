@@ -1,20 +1,5 @@
-.custom_navbar
-{
-  background: rgb(40,68,86);
-}
 
-.btn
-{
-  background: none;
-  border-radius: 20px;
-}
-
-.btn:hover
-{
-  background: rgb(230,51,18);
-}
-
-.global-nav
+.content.global-nav .content.is-global-nav-open, .content.global-nav
 {
   background-color: rgb(40,68,86);
 }

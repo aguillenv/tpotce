@@ -1,3 +1,8 @@
+.custom_navbar
+{
+  background: rgb(40,68,86);
+}
+
 .btn {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -5,13 +10,14 @@
   font-family: Arial;
   color: #ffffff;
   font-size: 12px;
-  background: #E20074;
+  background: none;
+  border-radius: 20px;
   padding: 2px 30px 2px 30px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #c2c2c2;
+  background: rgb(230,51,18);
   text-decoration: none;
 }
 
