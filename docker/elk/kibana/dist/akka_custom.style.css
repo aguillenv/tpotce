@@ -16,9 +16,9 @@
   background-position: center;
 }
 
-.global-nav-link .global-nav-link--close
+.global-nav__links-section:last-of-type
 {
-  display: none !important;
+  display: none;
 }
 
 /* Dashboard header section */
