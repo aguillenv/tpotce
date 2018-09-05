@@ -49,3 +49,8 @@
 {
   background-color: rgb(40,68,86);
 }
+
+.kuiLocalBreadcrumb__link:active, .kuiLocalBreadcrumb__link:visited
+{
+  color: rgb(40,68,86);
+}
