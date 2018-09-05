@@ -16,6 +16,11 @@
   background-position: center;
 }
 
+.global-nav-link .global-nav-link--close
+{
+  display: none;
+}
+
 /* Dashboard header section */
 .kuiLocalNav, .kuiToolBar 
 {
