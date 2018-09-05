@@ -18,13 +18,18 @@
 
 .global-nav-link .global-nav-link--close
 {
-  display: none;
+  display: none !important;
 }
 
 /* Dashboard header section */
 .kuiLocalNav, .kuiToolBar 
 {
   background-color: rgb(210,204,189);
+}
+
+.kuiLocalTitle
+{
+  color: rgb(40,68,86);
 }
 
 /* Links */
