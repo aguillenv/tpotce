@@ -1,14 +1,41 @@
+/* Sidebar */
 
 .global-nav
 {
   background-color: rgb(40,68,86);
 }
 
-.global-nav-link.active, .global-nav-link:hover {
+.global-nav-link.active, .global-nav-link:hover
+{
   background-color: rgb(230,51,18);
 }
 
 .global-nav .logo-small.kibana,.global-nav .logo.kibana
 {
   background-color: rgb(210,204,189);
+  background-position: center;
+}
+
+/* Dashboard header section */
+.kuiLocalNav, .kuiToolBar 
+{
+  background-color: rgb(210,204,189);
+}
+
+/* Links */
+
+.kuiLink, .kuiLink:active, .kuiLink:visited
+{
+  color: rgb(230,51,18);
+}
+
+.kuiLink:hover 
+{
+  color: rgb(40,68,86);
+}
+
+/* Buttons */
+.kuiButton--primary
+{
+  background-color: rgb(40,68,86);
 }
